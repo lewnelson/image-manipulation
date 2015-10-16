@@ -20,7 +20,7 @@ To get started ensure you have loaded all classes into your script, then run the
 ```
 use LewNelson\ImageManipulation\ImageManipulation;
 
-$collection = ImageManipulationFactory::init($images);
+$collection = ImageManipulation::init($images);
 ```
 
 Where $images is either a string of a path to an image or an array of paths to images. This will output either a string or array of ImageManipulation objects depending on the input. If you input an array the output will be an array with the same keys.
