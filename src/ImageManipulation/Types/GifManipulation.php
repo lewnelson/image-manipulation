@@ -11,13 +11,13 @@
 
 namespace ImageManipulation\Types;
 
-use ImageManipulation\ImageManipulation;
+use ImageManipulation\ImageManipulationBase;
 use ImageManipulation\ImageManipulationInterface;
 
 /**
  * @author Lewis Nelson <lewis@lewnelson.com>
  */
-class GifManipulation extends ImageManipulation implements ImageManipulationInterface
+class GifManipulation extends ImageManipulationBase implements ImageManipulationInterface
 {
     /**
      * Generates a thumbnail for the image based on optional array of options.
