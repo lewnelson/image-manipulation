@@ -1,0 +1,20 @@
+{
+    "name": "lewnelson/image-manipulation",
+    "description": "Image manipulation, generate thumbnails",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lewnelson",
+            "email": "lewis@lewnelson.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImageManipulation": "src/"
+        }
+    }
+}
