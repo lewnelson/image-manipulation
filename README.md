@@ -3,6 +3,16 @@ A PHP class to manipulate images
 
 This PHP tool is designed to generate thumbnails given the path to an image. Currently it supports png, gif and jpg images.
 
+## Installation
+
+```
+{
+    "require": {
+        "lewnelson/image-manipulation": "dev-master@dev"
+    }
+}
+```
+
 ## Usage
 
 To get started ensure you have loaded all classes into your script, then run the following:
