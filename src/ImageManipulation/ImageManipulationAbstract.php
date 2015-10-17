@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the LewisNelson/ImageManipulation package.
+ * This file is part of the lewnelson/image-manipulation package.
  *
  * (c) Lewis Nelson <lewis@lewnelson.com>
  *
